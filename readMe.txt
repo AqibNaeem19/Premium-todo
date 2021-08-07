@@ -1,0 +1,2 @@
+This is a basic todo list app which eye catching interface and 2 annimating balls on both sides of the list, which provides premium looks to the app. Its fully mobile responsive build with react.js, when you hover on any single list item, it shows the annimating delete button approaching from left to right. It has all the CRUD controls too.
+The UI of the todo-list is completely unique and user friendly.

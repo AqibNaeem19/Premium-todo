@@ -1,0 +1,110 @@
+
+
+  .TodoList{
+     background: #283048;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     padding: 2px;
+     margin: 10px;     
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     color: snow;
+     transform: skew(20deg);
+     text-align: center;
+     width: 80%;
+     cursor: pointer;
+     transition: all 0.5s ease-in-out;
+}
+.TodoList:hover{
+     filter: brightness(140%) contrast(90%);
+}
+
+.todo-heading{
+     flex: 1;
+     transform: skew(-20deg);
+     letter-spacing: 2px;
+     display: inline-block;
+}
+
+.todo-edit{
+     cursor: pointer;
+     color: rgb(24, 153, 24);
+}
+
+
+.TodoList .todo-edit:active,
+.TodoList .todo-edit:hover,
+.TodoList .todo-edit:focus{
+     outline: none;
+     border: none;
+}
+
+.todo-delete{
+ position: absolute;
+ top: 0;
+ bottom:0;
+ left: 0;
+ opacity: 0;
+ color: rgb(212, 31, 31);
+ transition: all 0.5s;
+ cursor: pointer;
+}
+.todo-complete{
+     text-decoration: line-through;
+     font-size: 300;
+     filter: brightness(70%);
+}
+
+.TodoList:hover .todo-delete{
+     opacity: 1;
+     animation-name: example;
+     animation-duration: 2s;
+}
+@keyframes example {
+     0%   { left:-20px; }
+     100% { left:0px; }
+}
+
+.movement{
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+     position: absolute;
+     left: 30px;
+     z-index: -2;
+     background-color: white;
+     animation: bounce 10s infinite;
+}
+.movement2{
+     width: 50px;
+     height: 50px;
+     border-radius: 100%;
+     position: absolute;
+     right: 30px;
+     z-index: -2;
+     background-color: white;
+     animation: bounce2 10s infinite;
+}
+@keyframes bounce{
+     0% {top: 10%}
+     50% {top: 90%}
+     100% {top: 10%}
+}
+
+@keyframes bounce2{
+     0% {top: 90%}
+     50% {top: 10%}
+     100% {top: 90%}
+}
+
+
+
+@media only screen and (min-width: 500px) {
+     .TodoList {
+       width: 50%;
+     }
+}
+
+
+
