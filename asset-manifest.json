@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Premium-todo/static/css/main.05cda8cd.chunk.css",
+    "main.js": "/Premium-todo/static/js/main.50230ae3.chunk.js",
+    "main.js.map": "/Premium-todo/static/js/main.50230ae3.chunk.js.map",
+    "runtime-main.js": "/Premium-todo/static/js/runtime-main.678fbb60.js",
+    "runtime-main.js.map": "/Premium-todo/static/js/runtime-main.678fbb60.js.map",
+    "static/js/2.3fc08e1a.chunk.js": "/Premium-todo/static/js/2.3fc08e1a.chunk.js",
+    "static/js/2.3fc08e1a.chunk.js.map": "/Premium-todo/static/js/2.3fc08e1a.chunk.js.map",
+    "static/js/3.7c6a48db.chunk.js": "/Premium-todo/static/js/3.7c6a48db.chunk.js",
+    "static/js/3.7c6a48db.chunk.js.map": "/Premium-todo/static/js/3.7c6a48db.chunk.js.map",
+    "index.html": "/Premium-todo/index.html",
+    "static/css/main.05cda8cd.chunk.css.map": "/Premium-todo/static/css/main.05cda8cd.chunk.css.map",
+    "static/js/2.3fc08e1a.chunk.js.LICENSE.txt": "/Premium-todo/static/js/2.3fc08e1a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.678fbb60.js",
+    "static/js/2.3fc08e1a.chunk.js",
+    "static/css/main.05cda8cd.chunk.css",
+    "static/js/main.50230ae3.chunk.js"
+  ]
+}
